@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="fi">
+    <head>
+        <title>html-elementtejä</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Matleena Laitila">
+        <link href="css/laitila.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>html- ja css-harjoituksia</h1>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Etusivu</a></li>
+                <li><a href="koulu.html">Koulu</a></li>
+                <li><a href="elementit.html">html-elementtejä</a></li>
+                <li><a href="sisaelementit.html">Sisäelementtejä</a></li>
+                <li><a href="mustikkapiirakka.html">Piirakka</a></li>
+                <li><a href="tekstarit.html">Tekstarit</a></li>
+            </ul>
+        </nav>
+        
+        <div>
+            <h1>html-elementtejä</h1>
+            <p>Harjoitellaan erilaisien html-elementtien kirjoittamista.</p>
+            
+            <h2>Listoja</h2>
+            
+            <div class="lista">
+                <h3>Viikonpäivät</h3>
+                <ul>
+                <li>maanantai</li>
+                <li>tiistai</li>
+                <li>keskiviikko</li>
+                <li>torstai</li>
+                <li>perjantai</li>
+                <li>lauantai</li>
+                <li>sunnuntai</li>
+            </ul>
+            </div>
+            
+            <div class="lista">    
+                <h3>Kesäkuukaudet</h3>
+                <ul>
+                <li>1. Kesäkuu</li>
+                <li>2. Heinäkuu</li>
+                <li>3. Elokuu</li>   
+            </ul>
+            </div>
+            
+            <div class="lista">
+                <h3>Värejä</h3>
+            
+                 <ul>
+                <li>Punaisia värejä
+                <ul>
+                    <li>viininpunainen</li>
+                    <li>vaaleanpunainen</li>
+                    <li>joulunpunainen</li>
+                </ul>
+                </li>
+                <li>Sinisiä värejä
+                <ul>
+                    <li>tummansininen</li>
+                    <li>vaaleansininen</li>
+                    <li>taivaansininen</li>
+                </ul>
+                </li>  
+        </ul>
+            </div>
+                
+            <h2 id="taulukot">Taulukoita</h2>
+            
+            <p>Perustaulukko</p>
+            
+            <table>
+                <tr>
+                    <th>Nimi</th>
+                    <th>Ikä</th>
+                    <th>Puhelin</th>
+                    
+                </tr>
+                
+                <tr>
+                    <td>Leena</td>
+                    <td></td>
+                    <td>040 123 456</td>
+                   
+                    
+                </tr>
+                
+                <tr>
+                <td>Lassi</td>
+                <td>18</td>
+                <td>050 123 456</td>
+                
+                </tr>
+                
+                <tr>
+                    <td>Mikki</td>
+                    <td>45</td>
+                    <td></td>
+                </tr>
+            </table>
+            
+            <hr>
+            
+            <p>Retken ruokailujen vastuuryhmät</p>
+            
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Ryhmä 1</th>
+                    <th>Ryhmä 2</th>
+                    <th>Ryhmä 3</th>
+                    
+                </tr>
+                
+                <tr>
+                    <th>Aamiainen</th>
+                    <td rowspan="2">lauantai</td>
+                    <td></td>
+                    <td>sunnuntai</td>
+                    
+                </tr>
+                
+                <tr>
+                    <th>Lounas</th> 
+                    <td rowspan="2">sunnuntai</td>
+                    <td></td>
+                    
+                </tr>
+                
+                <tr>
+                    <th>Välipala</th>
+                    <td></td>
+                    <td rowspan="2">lauantai</td>
+                    
+                </tr>
+                
+                <tr>
+                    <th>Päivällinen</th>
+                    <td>sunnuntai</td>
+                    <td></td>
+                    
+                </tr>
+                
+                <tr>
+                    <th>Iltapala</th>
+                    <td></td>
+                    <td>lauantai</td>
+                    <td></td>
+                    
+                </tr>
+                
+            </table>
+            
+            <hr>
+            
+            <p>Luokitteluja</p>
+            
+            <table>
+                
+                <tr>
+                    <th colspan="3">kuvia</th>
+                
+                </tr>
+                
+                <tr>
+                <td>jpeg</td>
+                <td>gif</td>
+                <td>png</td>   
+                </tr>
+                
+                <tr>
+                    <th colspan="3">videoita</th>
+                </tr>
+                <tr>
+                <td>wmv</td>
+                <td>avi</td>
+                <td>mpg</td>   
+                </tr>
+                
+            </table>
+            
+            <hr>
+            
+            <h2>Ohjelmakoodia</h2>
+            
+            <pre>
+if (1km != 0)
+{
+        vastaus = summa / 1km;
+}
+else
+{
+        vastaus = 0;
+}</pre>
+            
+        </div>
+    </body>
+</html>

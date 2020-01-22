@@ -1,0 +1,179 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18.1.2019, 21:05:59
+    Author     : Matleena Laitila
+*/
+
+body {background-color: #e6e6e6;}
+
+
+
+h1, h2, h3 {
+    font-family: Georgia, Times, "Times New Roman";}
+
+h1{color: #353109}
+
+
+h2 {color: #C5B502}
+
+
+h3 {color: #FDEC31}
+
+table {
+       border: 3px ridge #C5B502;
+       border-collapse: separate;
+}
+
+td {border-color: #FDEC31;
+    border-width: 1px;
+    border-style: dotted;}
+
+th {border-color: #FDEC31;
+    border-width: 1px;
+    border-style: dotted;}
+
+th {background-color: #FFFDE5;
+    color: #353109;}
+
+tr {padding: 10px;
+    text-align: left;
+    vertical-align: top;}
+
+
+
+div,
+nav,
+header {
+    background-color: snow;
+    padding-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "arial";
+}   
+
+nav,
+header {
+    margin-bottom: 1em;
+    padding: 10px 10px 10px 20px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    background-color: #FFFDE5;
+    line-height: 2em;
+    display: block;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+nav {
+    background-color: #FFFDE5;
+}
+
+nav li a:hover {
+    background-color: #FEFE9A;
+    color: #FFFDE5;
+    text-decoration: none;
+}
+
+nav ul {
+    padding-left: 0px;
+    margin: 0px;
+}
+    
+figure {
+    
+    margin-left: 0px;
+}
+img {
+    max-width: 100%;
+}
+
+address {
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: #C5B502;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #C5B502;
+}
+
+a:hover {
+    color: #FDEC31;
+    text-decoration: underline;
+    
+}
+
+.sininenkursiivi{color: #FDEC31; font-family: Georgia; font-style: italic;}
+
+.marginaalit {margin-left: 100px; 
+              margin-right: 100px; 
+              margin-top: 20px; 
+              margin-bottom: 20px;
+              padding: 20px;
+              
+              }
+.taustayksi {background-color: #fffef4;
+             border-radius: 10px;
+            }
+
+.taustakaksi {background-color: #e6e6e6;
+              border-radius: 10px;
+            }
+            
+.lista {
+    border: 1px solid #FDEC31;   
+    display: inline-block;
+    padding: 0px;
+    height: 250px;
+    width: 250px;
+    vertical-align: top;
+    margin-right: 20px;
+}
+.lista h3 {
+    background-color: #FFFDE5;
+    margin-top: 0px;
+    line-height: 2em;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+.lista ul ul {
+    padding-left: 20px
+}
+
+img {
+    max-width: 100%;
+}
+
+.kuvat li {
+    display: inline-block;
+    width: 20%;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+.kuvat li img {
+    border-color: #FDEC31;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+ul.kuvat {
+    padding-left: 0em;
+}
